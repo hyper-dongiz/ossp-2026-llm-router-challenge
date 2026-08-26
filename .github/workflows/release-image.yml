@@ -1,0 +1,57 @@
+# SPDX-FileCopyrightText: Copyright 2026 hyper-dongiz
+# SPDX-License-Identifier: Apache-2.0
+#
+# 제출 이미지를 linux/arm64 네이티브 러너에서 빌드하고, 공개 Dev 880문항으로
+# 공식 채점기 self-check까지 검증한 뒤, 같은 실행에서 GHCR 로 push 한다.
+# 검증에 쓴 커밋과 push 한 이미지가 동일함이 이 실행 기록으로 증명된다.
+name: release-image
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  packages: write
+
+jobs:
+  release:
+    runs-on: ubuntu-24.04-arm
+    timeout-minutes: 60
+    env:
+      TAG: ghcr.io/${{ github.repository_owner }}/ossp-router:${{ github.sha }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: 공개 Train/Dev 자료 materialize
+        run: |
+          python3 -m venv .venv-data
+          .venv-data/bin/pip install -r data/sources/requirements-materialize-public-data.txt
+          .venv-data/bin/python tools/materialize_public_data.py
+
+      - name: 이미지 빌드 + Dev 880 검증 (tools/build_container.sh)
+        run: ./tools/build_container.sh
+
+      - name: GHCR push 및 다이제스트 확보
+        run: |
+          echo "${{ secrets.GITHUB_TOKEN }}" | docker login ghcr.io -u "${{ github.actor }}" --password-stdin
+          docker push "$TAG"
+          DIGEST=$(docker image inspect "$TAG" --format '{{index .RepoDigests 0}}')
+          echo "image_digest: $DIGEST"
+          {
+            echo "## 제출 이미지"
+            echo '```'
+            echo "commit_sha:   ${{ github.sha }}"
+            echo "image_digest: $DIGEST"
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: SBOM 생성 (tools/make_sbom.py)
+        run: |
+          mkdir -p build
+          python3 tools/make_sbom.py --tag "$TAG" --out build/sbom.cdx.json
+
+      - name: SBOM 아티팩트 업로드
+        uses: actions/upload-artifact@v4
+        with:
+          name: sbom
+          path: build/sbom.cdx.json
