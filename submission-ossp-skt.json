@@ -1,0 +1,8 @@
+{
+ "schema_version": 1,
+ "challenge_id": "ossp-2026-llm-router-challenge",
+ "repository_url": "https://github.com/hyper-dongiz/ossp-2026-llm-router-challenge",
+ "commit_sha": "322d1804dc7dc49660b6504b1f79549a74e54a16",
+ "image_digest": "ghcr.io/hyper-dongiz/ossp-router@sha256:b50a4def66d6cf2016db9afbca42b96015e0815aca5ecce9abf3a6cb133d1f36",
+ "primary_license": "Apache-2.0"
+}
