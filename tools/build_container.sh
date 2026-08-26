@@ -41,6 +41,11 @@ WORK=$(mktemp -d)
 trap 'rm -rf "$WORK"' EXIT
 mkdir -p "$WORK/in" "$WORK/out"
 cp "$IN" "$WORK/in/inputs.json"
+# mktemp 는 700 으로 만든다. 비루트(UID 65532) 컨테이너가 바인드 마운트를
+# 읽고 출력을 쓸 수 있도록 권한을 연다.
+chmod 755 "$WORK" "$WORK/in"
+chmod 644 "$WORK/in/inputs.json"
+chmod 777 "$WORK/out"
 
 echo "▶ 공식 자원 한도로 세 등급 실행"
 for t in fast balanced premium; do
