@@ -1,3 +1,8 @@
+<!--
+SPDX-FileCopyrightText: Copyright 2026 hyper-dongiz
+SPDX-License-Identifier: Apache-2.0
+-->
+
 # 도달 경로 — 왜 분위수 회귀인가
 
 각 단계의 관측·가설·검증·판정을 순서대로 남긴다. **기각된 가설도 남긴다** —

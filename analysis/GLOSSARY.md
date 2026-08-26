@@ -1,3 +1,8 @@
+<!--
+SPDX-FileCopyrightText: Copyright 2026 hyper-dongiz
+SPDX-License-Identifier: Apache-2.0
+-->
+
 # 용어 사전 — 이 프로젝트에서 쓰는 말
 
 `analysis/decision-trail.md`를 읽기 전에 이 문서를 보면 됩니다.
