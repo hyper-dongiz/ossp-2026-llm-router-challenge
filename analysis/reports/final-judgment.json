@@ -1,0 +1,552 @@
+[
+ {
+  "expected_final_score": 0.4059722222221722,
+  "method": "shipped",
+  "per_split_weighted": [
+   0.700909090909,
+   0.4281818181819,
+   0.7071590909087,
+   0.6911363636364,
+   0.4639772727273,
+   0.0,
+   0.4261363636362,
+   0.27,
+   0.2101704545454,
+   0.2258522727273,
+   0.5047159090907,
+   0.1965340909092,
+   0.451022727273,
+   0.4328977272726,
+   0.3971590909092,
+   0.5046022727271,
+   0.4942045454543,
+   0.2028409090908
+  ],
+  "tiers": {
+   "balanced": {
+    "expected_score": 0.5037878787878333,
+    "median_safety_ratio": 0.8958333333333333,
+    "pass_rate": 0.7222222222222222,
+    "raw_score_when_passed": 0.6975524475523845,
+    "stratified_pass_rate": 0.75,
+    "trials": 18,
+    "worst_budget_ratio": 2.167543576819
+   },
+   "fast": {
+    "expected_score": 0.3354797979797222,
+    "median_safety_ratio": 0.9375,
+    "pass_rate": 0.5,
+    "raw_score_when_passed": 0.6709595959594444,
+    "stratified_pass_rate": 0.5,
+    "trials": 18,
+    "worst_budget_ratio": 1.422844838617
+   },
+   "premium": {
+    "expected_score": 0.40214646464644443,
+    "median_safety_ratio": 0.890625,
+    "pass_rate": 0.5555555555555556,
+    "raw_score_when_passed": 0.7238636363636,
+    "stratified_pass_rate": 0.5,
+    "trials": 18,
+    "worst_budget_ratio": 5.29445115839
+   }
+  },
+  "weighted_stderr": 0.045467425177067554,
+  "weighted_stdev": 0.19290194799477856
+ },
+ {
+  "expected_final_score": 0.4059722222221722,
+  "method": "ridge_log_exp",
+  "per_split_weighted": [
+   0.700909090909,
+   0.4281818181819,
+   0.7071590909087,
+   0.6911363636364,
+   0.4639772727273,
+   0.0,
+   0.4261363636362,
+   0.27,
+   0.2101704545454,
+   0.2258522727273,
+   0.5047159090907,
+   0.1965340909092,
+   0.451022727273,
+   0.4328977272726,
+   0.3971590909092,
+   0.5046022727271,
+   0.4942045454543,
+   0.2028409090908
+  ],
+  "tiers": {
+   "balanced": {
+    "expected_score": 0.5037878787878333,
+    "median_safety_ratio": 0.8958333333333333,
+    "pass_rate": 0.7222222222222222,
+    "raw_score_when_passed": 0.6975524475523845,
+    "stratified_pass_rate": 0.75,
+    "trials": 18,
+    "worst_budget_ratio": 2.167543576819
+   },
+   "fast": {
+    "expected_score": 0.3354797979797222,
+    "median_safety_ratio": 0.9375,
+    "pass_rate": 0.5,
+    "raw_score_when_passed": 0.6709595959594444,
+    "stratified_pass_rate": 0.5,
+    "trials": 18,
+    "worst_budget_ratio": 1.422844838617
+   },
+   "premium": {
+    "expected_score": 0.40214646464644443,
+    "median_safety_ratio": 0.890625,
+    "pass_rate": 0.5555555555555556,
+    "raw_score_when_passed": 0.7238636363636,
+    "stratified_pass_rate": 0.5,
+    "trials": 18,
+    "worst_budget_ratio": 5.29445115839
+   }
+  },
+  "weighted_stderr": 0.045467425177067554,
+  "weighted_stdev": 0.19290194799477856
+ },
+ {
+  "expected_final_score": 0.4467771464646,
+  "method": "ridge_smeared",
+  "per_split_weighted": [
+   0.7053409090907,
+   0.4310795454546,
+   0.7047727272727,
+   0.6897727272729,
+   0.6864772727269,
+   0.0,
+   0.4254545454546,
+   0.4843749999998,
+   0.4303977272727,
+   0.2272159090908,
+   0.5044886363636,
+   0.1982386363635,
+   0.5142613636363,
+   0.4341477272726,
+   0.3971590909092,
+   0.5059659090909,
+   0.4979545454545,
+   0.2048863636365
+  ],
+  "tiers": {
+   "balanced": {
+    "expected_score": 0.5030303030302777,
+    "median_safety_ratio": 0.8958333333333333,
+    "pass_rate": 0.7222222222222222,
+    "raw_score_when_passed": 0.6965034965034615,
+    "stratified_pass_rate": 0.625,
+    "trials": 18,
+    "worst_budget_ratio": 2.202848708915
+   },
+   "fast": {
+    "expected_score": 0.3755366161615,
+    "median_safety_ratio": 0.9166666666666667,
+    "pass_rate": 0.5555555555555556,
+    "raw_score_when_passed": 0.6759659090907,
+    "stratified_pass_rate": 0.625,
+    "trials": 18,
+    "worst_budget_ratio": 1.41677301062
+   },
+   "premium": {
+    "expected_score": 0.48551136363638886,
+    "median_safety_ratio": 0.875,
+    "pass_rate": 0.6666666666666666,
+    "raw_score_when_passed": 0.7282670454545833,
+    "stratified_pass_rate": 0.5,
+    "trials": 18,
+    "worst_budget_ratio": 4.89483762062
+   }
+  },
+  "weighted_stderr": 0.045626754288283514,
+  "weighted_stdev": 0.19357792416466593
+ },
+ {
+  "expected_final_score": 0.44815656565659445,
+  "method": "quantile_0.8",
+  "per_split_weighted": [
+   0.7014772727275,
+   0.4276704545454,
+   0.7050000000001,
+   0.6918181818183,
+   0.6765340909092,
+   0.0,
+   0.465965909091,
+   0.4810795454544,
+   0.433125,
+   0.0,
+   0.5067045454546,
+   0.1975568181819,
+   0.7373863636361,
+   0.4341477272729,
+   0.3992045454546,
+   0.5076704545454,
+   0.4925,
+   0.2089772727273
+  ],
+  "tiers": {
+   "balanced": {
+    "expected_score": 0.5430555555556666,
+    "median_safety_ratio": 0.90625,
+    "pass_rate": 0.7777777777777778,
+    "raw_score_when_passed": 0.6982142857144286,
+    "stratified_pass_rate": 0.75,
+    "trials": 18,
+    "worst_budget_ratio": 2.26657582906
+   },
+   "fast": {
+    "expected_score": 0.41111111111111115,
+    "median_safety_ratio": 0.95,
+    "pass_rate": 0.6111111111111112,
+    "raw_score_when_passed": 0.6727272727272727,
+    "stratified_pass_rate": 0.625,
+    "trials": 18,
+    "worst_budget_ratio": 1.386039235005
+   },
+   "premium": {
+    "expected_score": 0.4026515151515,
+    "median_safety_ratio": 0.9375,
+    "pass_rate": 0.5555555555555556,
+    "raw_score_when_passed": 0.7247727272727,
+    "stratified_pass_rate": 0.5,
+    "trials": 18,
+    "worst_budget_ratio": 6.497170655238
+   }
+  },
+  "weighted_stderr": 0.053031993269120885,
+  "weighted_stdev": 0.2249956923626083
+ },
+ {
+  "expected_final_score": 0.20851641414140556,
+  "method": "quantile_0.8+trust",
+  "per_split_weighted": [
+   0.4972159090907,
+   0.2226136363635,
+   0.5032386363637,
+   0.700909090909,
+   0.4680681818181,
+   0.0,
+   0.2101704545454,
+   0.0,
+   0.2246590909092,
+   0.0,
+   0.2205681818181,
+   0.0,
+   0.0,
+   0.0,
+   0.2086363636365,
+   0.0,
+   0.4972159090911,
+   0.0
+  ],
+  "tiers": {
+   "balanced": {
+    "expected_score": 0.19655934343433332,
+    "median_safety_ratio": 1.0,
+    "pass_rate": 0.2777777777777778,
+    "raw_score_when_passed": 0.7076136363636,
+    "stratified_pass_rate": 0.25,
+    "trials": 18,
+    "worst_budget_ratio": 2.304307567526
+   },
+   "fast": {
+    "expected_score": 0.1885732323232222,
+    "median_safety_ratio": 1.0,
+    "pass_rate": 0.2777777777777778,
+    "raw_score_when_passed": 0.6788636363636,
+    "stratified_pass_rate": 0.125,
+    "trials": 18,
+    "worst_budget_ratio": 1.497407108086
+   },
+   "premium": {
+    "expected_score": 0.24706439393938892,
+    "median_safety_ratio": 1.0,
+    "pass_rate": 0.3333333333333333,
+    "raw_score_when_passed": 0.7411931818181667,
+    "stratified_pass_rate": 0.125,
+    "trials": 18,
+    "worst_budget_ratio": 6.533384831392
+   }
+  },
+  "weighted_stderr": 0.054587392486059365,
+  "weighted_stdev": 0.231594692365105
+ },
+ {
+  "expected_final_score": 0.4369696969697111,
+  "method": "quantile_0.9",
+  "per_split_weighted": [
+   0.6968181818185,
+   0.2057386363635,
+   0.7026136363639,
+   0.681363636364,
+   0.6722727272727,
+   0.2035227272727,
+   0.2057386363635,
+   0.4840340909091,
+   0.4278409090908,
+   0.2059090909092,
+   0.5033522727271,
+   0.3838636363635,
+   0.2296022727273,
+   0.4268750000001,
+   0.3985227272727,
+   0.735568181818,
+   0.4901136363636,
+   0.2117045454546
+  ],
+  "tiers": {
+   "balanced": {
+    "expected_score": 0.6102588383838333,
+    "median_safety_ratio": 0.9583333333333333,
+    "pass_rate": 0.8888888888888888,
+    "raw_score_when_passed": 0.6865411931818125,
+    "stratified_pass_rate": 0.75,
+    "trials": 18,
+    "worst_budget_ratio": 2.110391213641
+   },
+   "fast": {
+    "expected_score": 0.33352272727277776,
+    "median_safety_ratio": 0.9375,
+    "pass_rate": 0.5,
+    "raw_score_when_passed": 0.6670454545455555,
+    "stratified_pass_rate": 0.5,
+    "trials": 18,
+    "worst_budget_ratio": 1.380025355223
+   },
+   "premium": {
+    "expected_score": 0.4016098484848334,
+    "median_safety_ratio": 0.953125,
+    "pass_rate": 0.5555555555555556,
+    "raw_score_when_passed": 0.7228977272727001,
+    "stratified_pass_rate": 0.625,
+    "trials": 18,
+    "worst_budget_ratio": 5.2174392948
+   }
+  },
+  "weighted_stderr": 0.04661209289183219,
+  "weighted_stdev": 0.19775836181467085
+ },
+ {
+  "expected_final_score": 0.3202304292929111,
+  "method": "quantile_0.9+trust",
+  "per_split_weighted": [
+   0.7039772727271,
+   0.2057386363635,
+   0.7139772727274,
+   0.4268181818184,
+   0.6823863636362,
+   0.2048863636365,
+   0.2057386363635,
+   0.2128977272727,
+   0.4303977272727,
+   0.2072727272727,
+   0.0,
+   0.2019886363635,
+   0.2313068181819,
+   0.0,
+   0.3988636363638,
+   0.2296022727273,
+   0.4952272727271,
+   0.2130681818181
+  ],
+  "tiers": {
+   "balanced": {
+    "expected_score": 0.46051136363627776,
+    "median_safety_ratio": 1.0,
+    "pass_rate": 0.6666666666666666,
+    "raw_score_when_passed": 0.6907670454544167,
+    "stratified_pass_rate": 0.25,
+    "trials": 18,
+    "worst_budget_ratio": 2.436105614352
+   },
+   "fast": {
+    "expected_score": 0.1512626262626111,
+    "median_safety_ratio": 1.0,
+    "pass_rate": 0.2222222222222222,
+    "raw_score_when_passed": 0.68068181818175,
+    "stratified_pass_rate": 0.125,
+    "trials": 18,
+    "worst_budget_ratio": 1.438134894158
+   },
+   "premium": {
+    "expected_score": 0.40523989898994445,
+    "median_safety_ratio": 1.0,
+    "pass_rate": 0.5555555555555556,
+    "raw_score_when_passed": 0.7294318181819001,
+    "stratified_pass_rate": 0.625,
+    "trials": 18,
+    "worst_budget_ratio": 5.2174392948
+   }
+  },
+  "weighted_stderr": 0.051266366378653276,
+  "weighted_stdev": 0.21750477187883854
+ },
+ {
+  "expected_final_score": 0.40286300505048894,
+  "method": "quantile_0.95",
+  "per_split_weighted": [
+   0.6969318181818,
+   0.0,
+   0.6985227272726,
+   0.6844318181818,
+   0.6717045454544,
+   0.0,
+   0.2047159090908,
+   0.4830113636364,
+   0.4263068181819,
+   0.0,
+   0.5034090909091,
+   0.1975568181819,
+   0.2294318181819,
+   0.6304545454544,
+   0.3959659090908,
+   0.7347727272728,
+   0.488409090909,
+   0.2059090909092
+  ],
+  "tiers": {
+   "balanced": {
+    "expected_score": 0.45965909090905555,
+    "median_safety_ratio": 0.9791666666666667,
+    "pass_rate": 0.6666666666666666,
+    "raw_score_when_passed": 0.6894886363635834,
+    "stratified_pass_rate": 0.625,
+    "trials": 18,
+    "worst_budget_ratio": 2.156582768681
+   },
+   "fast": {
+    "expected_score": 0.33450126262622226,
+    "median_safety_ratio": 0.9666666666666667,
+    "pass_rate": 0.5,
+    "raw_score_when_passed": 0.6690025252524445,
+    "stratified_pass_rate": 0.5,
+    "trials": 18,
+    "worst_budget_ratio": 1.445377952508
+   },
+   "premium": {
+    "expected_score": 0.4372159090909445,
+    "median_safety_ratio": 0.96875,
+    "pass_rate": 0.6111111111111112,
+    "raw_score_when_passed": 0.715444214876091,
+    "stratified_pass_rate": 0.75,
+    "trials": 18,
+    "worst_budget_ratio": 4.501116514963
+   }
+  },
+  "weighted_stderr": 0.06127822537106618,
+  "weighted_stdev": 0.2599814921937506
+ },
+ {
+  "expected_final_score": 0.3570864898989389,
+  "method": "quantile_0.95+trust",
+  "per_split_weighted": [
+   0.703295454545,
+   0.0,
+   0.7106818181818,
+   0.6947727272728,
+   0.6809090909088,
+   0.0,
+   0.2047159090908,
+   0.0,
+   0.2198863636365,
+   0.0,
+   0.5087500000001,
+   0.2009659090908,
+   0.2301136363635,
+   0.6357954545454,
+   0.1929545454546,
+   0.7411363636364,
+   0.495284090909,
+   0.2082954545454
+  ],
+  "tiers": {
+   "balanced": {
+    "expected_score": 0.3836489898989444,
+    "median_safety_ratio": 1.0,
+    "pass_rate": 0.5555555555555556,
+    "raw_score_when_passed": 0.6905681818181,
+    "stratified_pass_rate": 0.625,
+    "trials": 18,
+    "worst_budget_ratio": 2.156582768681
+   },
+   "fast": {
+    "expected_score": 0.3038194444443889,
+    "median_safety_ratio": 1.0,
+    "pass_rate": 0.4444444444444444,
+    "raw_score_when_passed": 0.683593749999875,
+    "stratified_pass_rate": 0.5,
+    "trials": 18,
+    "worst_budget_ratio": 1.445377952508
+   },
+   "premium": {
+    "expected_score": 0.4015467171716667,
+    "median_safety_ratio": 1.0,
+    "pass_rate": 0.5555555555555556,
+    "raw_score_when_passed": 0.722784090909,
+    "stratified_pass_rate": 0.625,
+    "trials": 18,
+    "worst_budget_ratio": 4.501116514963
+   }
+  },
+  "weighted_stderr": 0.06697756641367228,
+  "weighted_stdev": 0.2841617483908801
+ },
+ {
+  "expected_final_score": 0.12915088383837223,
+  "method": "ridge_smeared+trust",
+  "per_split_weighted": [
+   0.2290909090908,
+   0.2253409090908,
+   0.5052840909093,
+   0.2244886363635,
+   0.4755681818182,
+   0.0,
+   0.2224431818181,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.2326704545454,
+   0.0,
+   0.2098295454546,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "tiers": {
+   "balanced": {
+    "expected_score": 0.03857323232322222,
+    "median_safety_ratio": 1.0,
+    "pass_rate": 0.05555555555555555,
+    "raw_score_when_passed": 0.694318181818,
+    "stratified_pass_rate": 0.0,
+    "trials": 18,
+    "worst_budget_ratio": 2.522500683247
+   },
+   "fast": {
+    "expected_score": 0.07541035353538889,
+    "median_safety_ratio": 1.0,
+    "pass_rate": 0.1111111111111111,
+    "raw_score_when_passed": 0.6786931818185,
+    "stratified_pass_rate": 0.0,
+    "trials": 18,
+    "worst_budget_ratio": 1.446130643529
+   },
+   "premium": {
+    "expected_score": 0.29138257575750004,
+    "median_safety_ratio": 1.0,
+    "pass_rate": 0.3888888888888889,
+    "raw_score_when_passed": 0.7492694805192858,
+    "stratified_pass_rate": 0.25,
+    "trials": 18,
+    "worst_budget_ratio": 5.673224495356
+   }
+  },
+  "weighted_stderr": 0.039710523590290106,
+  "weighted_stdev": 0.168477483090975
+ }
+]

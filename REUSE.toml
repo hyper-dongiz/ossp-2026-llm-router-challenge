@@ -58,3 +58,18 @@ path = [
 precedence = "override"
 SPDX-FileCopyrightText = "Copyright 2026 SK TELECOM CO., LTD."
 SPDX-License-Identifier = "Apache-2.0"
+
+# 아래 두 항목은 hyper-dongiz fork 가 추가한 파일이다. 위의
+# src/ossp_router/resources/*.json 항목보다 뒤에 있어 우선 적용된다.
+
+[[annotations]]
+path = "src/ossp_router/resources/router-artifact.v1.json"
+precedence = "override"
+SPDX-FileCopyrightText = "Copyright 2026 hyper-dongiz"
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = "analysis/reports/*.json"
+precedence = "override"
+SPDX-FileCopyrightText = "Copyright 2026 hyper-dongiz"
+SPDX-License-Identifier = "Apache-2.0"

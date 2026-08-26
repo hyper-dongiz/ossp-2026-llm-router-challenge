@@ -34,6 +34,14 @@ SPDX-License-Identifier: Apache-2.0
   Apple Silicon·Colima 측정과 자원 한도 동결 절차
 - [REVIEW_GUIDE.md](REVIEW_GUIDE.md): 관점별 검토 범위와 한국어 표현 확인 사항
 
+## 이 fork에서 추가한 문서
+
+아래는 상류(SK텔레콤) 문서가 아니라 hyper-dongiz fork가 추가한 자체 자료입니다.
+
+- [EVALUATION.md](EVALUATION.md): 판정 가이드 — 공개 Dev로 방식을 고를 때 생기는
+  오차 세 가지(선택 편향·분할 잡음·문항추출)를 분리해 재는 법, 도구 사용법,
+  실측 결과, 하네스의 한계
+
 참가자에게 적용되는 최종 자원 한도는 측정 문서가 아니라
 [`RUNTIME.md`](RUNTIME.md)를 기준으로 합니다.
 참가자 이미지는 `tools/check_runtime.py`로 공개 Train/Dev에서 미리 점검할 수
