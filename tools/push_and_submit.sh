@@ -1,10 +1,13 @@
 #!/usr/bin/env bash
+# SPDX-FileCopyrightText: Copyright 2026 이승재
+# SPDX-License-Identifier: Apache-2.0
+#
 # 이미지를 공개 레지스트리에 push 하고 submission-ossp-skt.json 을 만든다.
 # 사용법: REGISTRY=ghcr.io/hyper-dongiz USER=hyper-dongiz TOKEN_FILE=~/.reg-token ./tools/push_and_submit.sh
 set -euo pipefail
 cd "$(dirname "$0")/.."
 
-: "${REGISTRY:?REGISTRY 를 지정하라. 예 ghcr.io/masiljangajji 또는 docker.io/사용자명}"
+: "${REGISTRY:?REGISTRY 를 지정하라. 예 ghcr.io/hyper-dongiz 또는 docker.io/사용자명}"
 : "${USER:?USER 를 지정하라}"
 : "${TOKEN_FILE:?TOKEN_FILE 을 지정하라}"
 

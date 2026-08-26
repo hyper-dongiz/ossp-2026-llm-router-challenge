@@ -1,4 +1,7 @@
 #!/usr/bin/env bash
+# SPDX-FileCopyrightText: Copyright 2026 이승재
+# SPDX-License-Identifier: Apache-2.0
+#
 # 이 저장소만 clone 하면 언제든 제출 이미지를 만들고 검증한다. 자격증명이 필요 없다.
 #
 #   ./tools/build_container.sh            빌드 + 검증
