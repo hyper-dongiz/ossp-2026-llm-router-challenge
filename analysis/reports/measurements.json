@@ -1,0 +1,69 @@
+{
+ "headroom": {
+  "balanced": {
+   "actual_budget_ratio": 1.961506040268,
+   "budget_multiplier": 2.0,
+   "budget_passed": true,
+   "effective_headroom": 0.01924697986599999,
+   "limit_consumed": 0.980753020134,
+   "margin_left_by_safety": 0.08333333333333326,
+   "near_budget": true,
+   "predicted_target": 1.8333333333333335,
+   "safety_ratio": 0.9166666666666667,
+   "underestimate_vs_target": 0.0699123856007271
+  },
+  "fast": {
+   "actual_budget_ratio": 1.235989091684,
+   "budget_multiplier": 1.25,
+   "budget_passed": true,
+   "effective_headroom": 0.011208726652800038,
+   "limit_consumed": 0.9887912733472,
+   "margin_left_by_safety": 0.05166666666666664,
+   "near_budget": true,
+   "predicted_target": 1.1854166666666668,
+   "safety_ratio": 0.9483333333333334,
+   "underestimate_vs_target": 0.04266215115697691
+  },
+  "premium": {
+   "actual_budget_ratio": 3.98520473348,
+   "budget_multiplier": 4.0,
+   "budget_passed": true,
+   "effective_headroom": 0.003698816630000046,
+   "limit_consumed": 0.99630118337,
+   "margin_left_by_safety": 0.07499999999999996,
+   "near_budget": true,
+   "predicted_target": 3.7,
+   "safety_ratio": 0.925,
+   "underestimate_vs_target": 0.07708236039999994
+  }
+ },
+ "safe-targets": {
+  "balanced": {
+   "budget_multiplier": 2.0,
+   "safe_calibration_target": 1.6425566093610022,
+   "safe_target_as_limit_share": 0.8212783046805011,
+   "worst_drift_multiplier": 1.2176140466647616,
+   "worst_holdout_ratio": 2.398327946228,
+   "worst_holdout_vs_limit": 1.199163973114,
+   "worst_strategy": "random"
+  },
+  "fast": {
+   "budget_multiplier": 1.25,
+   "safe_calibration_target": 1.0538206161859927,
+   "safe_target_as_limit_share": 0.8430564929487941,
+   "worst_drift_multiplier": 1.1861601308617622,
+   "worst_holdout_ratio": 1.41998272863,
+   "worst_holdout_vs_limit": 1.1359861829039999,
+   "worst_strategy": "random"
+  },
+  "premium": {
+   "budget_multiplier": 4.0,
+   "safe_calibration_target": 3.016821226834224,
+   "safe_target_as_limit_share": 0.754205306708556,
+   "worst_drift_multiplier": 1.3258989178478762,
+   "worst_holdout_ratio": 5.29445115839,
+   "worst_holdout_vs_limit": 1.3236127895975,
+   "worst_strategy": "length:low→high"
+  }
+ }
+}

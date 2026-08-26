@@ -1,0 +1,114 @@
+[
+ {
+  "label": "참점수 + 참비용 (천장)",
+  "tiers": {
+   "balanced": {
+    "budget_multiplier": 2.0,
+    "budget_passed": true,
+    "budget_ratio": 1.988687399633,
+    "effective_score": 0.807386363636,
+    "raw_score": 0.807386363636
+   },
+   "fast": {
+    "budget_multiplier": 1.25,
+    "budget_passed": true,
+    "budget_ratio": 1.249121708721,
+    "effective_score": 0.759375,
+    "raw_score": 0.759375
+   },
+   "premium": {
+    "budget_multiplier": 4.0,
+    "budget_passed": true,
+    "budget_ratio": 3.922159053395,
+    "effective_score": 0.858238636364,
+    "raw_score": 0.858238636364
+   }
+  },
+  "weighted_effective": 0.8034375,
+  "weighted_raw": 0.8034375
+ },
+ {
+  "label": "참점수 + 예측비용",
+  "tiers": {
+   "balanced": {
+    "budget_multiplier": 2.0,
+    "budget_passed": false,
+    "budget_ratio": 2.361843113478,
+    "effective_score": 0.0,
+    "raw_score": 0.0
+   },
+   "fast": {
+    "budget_multiplier": 1.25,
+    "budget_passed": false,
+    "budget_ratio": 1.321755116597,
+    "effective_score": 0.0,
+    "raw_score": 0.0
+   },
+   "premium": {
+    "budget_multiplier": 4.0,
+    "budget_passed": false,
+    "budget_ratio": 5.310034518655,
+    "effective_score": 0.0,
+    "raw_score": 0.0
+   }
+  },
+  "weighted_effective": 0.0,
+  "weighted_raw": 0.0
+ },
+ {
+  "label": "예측점수 + 참비용",
+  "tiers": {
+   "balanced": {
+    "budget_multiplier": 2.0,
+    "budget_passed": true,
+    "budget_ratio": 1.99844202712,
+    "effective_score": 0.703125,
+    "raw_score": 0.703125
+   },
+   "fast": {
+    "budget_multiplier": 1.25,
+    "budget_passed": true,
+    "budget_ratio": 1.249226653274,
+    "effective_score": 0.671875,
+    "raw_score": 0.671875
+   },
+   "premium": {
+    "budget_multiplier": 4.0,
+    "budget_passed": true,
+    "budget_ratio": 3.998863011557,
+    "effective_score": 0.752556818182,
+    "raw_score": 0.752556818182
+   }
+  },
+  "weighted_effective": 0.7054545454546,
+  "weighted_raw": 0.7054545454546
+ },
+ {
+  "label": "예측점수 + 예측비용 (현재)",
+  "tiers": {
+   "balanced": {
+    "budget_multiplier": 2.0,
+    "budget_passed": false,
+    "budget_ratio": 2.207637900246,
+    "effective_score": 0.0,
+    "raw_score": 0.0
+   },
+   "fast": {
+    "budget_multiplier": 1.25,
+    "budget_passed": false,
+    "budget_ratio": 1.304708855652,
+    "effective_score": 0.0,
+    "raw_score": 0.0
+   },
+   "premium": {
+    "budget_multiplier": 4.0,
+    "budget_passed": false,
+    "budget_ratio": 4.312439700253,
+    "effective_score": 0.0,
+    "raw_score": 0.0
+   }
+  },
+  "weighted_effective": 0.0,
+  "weighted_raw": 0.0
+ }
+]
